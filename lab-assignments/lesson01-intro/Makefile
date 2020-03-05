@@ -1,6 +1,6 @@
 
 CC ?= $(CROSS_COMPILE)gcc
-CFLAGS += -O2 -Wall -g
+CFLAGS += -O2 -Wall -g -lm
 
 APPS = lab_01
 
